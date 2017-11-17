@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: public/
+    destination: /var/www
+hooks:
+  BeforeInstall:
+    - location: scripts/cleanup.sh
+      timeout: 260
+      runas: root
+  AfterInstall:
+    - location: scripts/setup.sh
+      timeout: 260
+      runas: root
