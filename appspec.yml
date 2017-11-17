@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: public/
-    destination: /var/www
+    destination: /var/www/klever.global
 hooks:
   BeforeInstall:
     - location: scripts/cleanup.sh
