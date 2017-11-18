@@ -343,6 +343,9 @@ nav .container .twelve.columns {
 .logo a {
 	display: block;
 	margin: auto;
+	font-size:3.5em;
+	font-weight: bold;
+	color: #333333;
 }
 .main-menu li {
 	display: inline;
@@ -1562,6 +1565,9 @@ p.quote {
 	display: inline-block;
 	text-align: center;
 	margin-bottom: 30px;
+	color: #333333;
+	font-size: 3.5em;
+	font-weight:bold;
 }
 .copyright .social-icons {
 	text-align: center;
