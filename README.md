@@ -1,6 +1,8 @@
 # Klever.Global Corp Website
 
-This website needs to be built locally and is deployed to Guthub Pages, by making a commit.
+This website is deployed to Github Pages automatically.
+The `.github/workflows/gh-pages.yml` workflow, builds & then deploys the site to a `gh-pages` branch.
+This branch is configured to deliver the site in production.
 
 ## Development Usage
 
