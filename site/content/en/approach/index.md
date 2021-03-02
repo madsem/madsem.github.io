@@ -11,7 +11,7 @@ Creating inspiring and engaging ad-experiences instead of ad-annoyances for your
 That's how good advertising should be conceived. Coincidentally, this is also where we strive.
 
 ## Klever Intelligence
-Our internal technology is powered by bespoke Machine-Learning algorithms that help us make the best decisions for you, and always stay ahead of your competition.
+Our internal technology is powered by Machine-Learning algorithms developed in-house, that help us make the best decisions for you, and always stay ahead of your competition.
 
 ## Single or Multi-Channel
 Here at Klever, we wake up with search marketing on our minds.

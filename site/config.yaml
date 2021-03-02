@@ -75,7 +75,6 @@ languages:
     languageName: Deutsch
     contentDir: content/de
     weight: 2
-    title: "Kurzlisten Vergleich"
     menus:
       main:
       - identifier: company
