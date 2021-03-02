@@ -25,8 +25,8 @@
   translation: "Optimierung"
 - id: optimization_body
   translation: |
-    Alles, was wir tun, wird A/B-getestet, rigoros und ständig.
-    Dies stellt sicher, dass Anzeigen immer Performant sind und nie Opfer von Banner-Blindheit oder saisonalen Änderungen werden.
+    Alles, was wir tun, wird A/B-getestet, rigoros und ständig. 
+    Dadurch wird sichergestellt, dass Anzeigen immer bestmöglich performen und nicht Banner Blindheit oder saisonalen Änderungen zum Opfer fallen.
 - id: research
   translation: "Recherche"
 - id: research_body
