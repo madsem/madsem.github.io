@@ -1,0 +1,118 @@
+baseurl: https://klever.global
+disableHugoGeneratorInject: true
+enableRobotsTXT: true
+canonifyURLs: true
+summaryLength: 25
+enableGitInfo: true
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Klever.Global"
+
+  login_url: https://hub.klever.global/login
+
+  # The action url for the contact us form.
+  contact_form_url: /
+
+# Default language menus
+menus:
+  main:
+  - identifier: company
+    title: Company
+    url: /about/
+    weight: 1
+  - identifier: approach
+    title: Our Approach
+    url: /approach/
+    weight: 2
+  - identifier: contact
+    title: Contact
+    url: /contact/
+    weight: 3
+  company:
+  - identifier: about
+    title: Who Is Klever?
+    url: /about/
+    weight: 1
+  - identifier: approach
+    title: Our Approach
+    url: /approach/
+    weight: 2
+  - identifier: contact
+    title: Contact Us
+    url: /contact/
+    weight: 3
+  legal:
+  - identifier: privacy
+    title: Privacy Policy
+    url: /privacy/
+    weight: 1
+  - identifier: terms
+    title: Terms of Use
+    url: /terms/
+    weight: 2
+  - identifier: legal-disclosure
+    title: Legal Disclosure
+    url: /legal-disclosure/
+    weight: 3
+
+# Language Config
+languages:
+  en:
+    languageName: English
+    contentDir: content/en
+    weight: 1
+  de:
+    languageName: Deutsch
+    contentDir: content/de
+    weight: 2
+    title: "Kurzlisten Vergleich"
+    menus:
+      main:
+      - identifier: company
+        title: Firma
+        url: /about/
+        weight: 1
+      - identifier: approach
+        title: Unser Ansatz
+        url: /approach/
+        weight: 2
+      - identifier: contact
+        title: Kontakt
+        url: /contact/
+        weight: 3
+      company:
+      - identifier: about
+        title: Wer Ist Klever?
+        url: /about/
+        weight: 1
+      - identifier: approach
+        title: Unser Ansatz
+        url: /approach/
+        weight: 2
+      - identifier: contact
+        title: Kontakt Aufnehmen
+        url: /contact/
+        weight: 3
+      legal:
+      - identifier: privacy
+        title: Datenschutz
+        url: /privacy/
+        weight: 1
+      - identifier: terms
+        title: Nutzungsbedingungen
+        url: /terms/
+        weight: 2
+      - identifier: legal-disclosure
+        title: Impressum
+        url: /legal-disclosure/
+        weight: 3

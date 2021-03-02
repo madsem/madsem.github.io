@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  {{ if or (not (isset .Page.Params "index")) (eq .Page.Params.index true) }}
+  <meta name="robots" content="index,follow" />
+  {{ else }}
+  <meta name="robots" content="noindex" />
+  {{ end }}
+
+  <title>{{if .Page.Params.title}}{{.Page.Params.title}}{{else}}{{.Site.Title}}{{end}}</title>
+  <meta name="description" content="{{ .Page.Params.description | default .Summary }}">
+
+  <base href="{{ .Site.BaseURL }}">
+
+  {{ $stylesheet := .Site.Data.webpack.main }}
+  {{ with $stylesheet.css }}
+  <link href="{{ absURL . }}" rel="stylesheet">
+  {{ end }}
+
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+  <div class="bg-white">
+    <div class="relative overflow-hidden">
+
+      {{ block "header" . }}{{ partial "header" . }}{{end}}
+
+      <main>
+        {{ block "main" . }}{{end}}
+      </main>
+
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+      {{ $script := .Site.Data.webpack.main }}
+      {{ with $script.js }}
+      <script src="{{ absURL . }}"></script>
+      {{ end }}
+
+    </div>
+  </div>
+
+</body>
+
+</html>

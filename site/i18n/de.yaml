@@ -1,0 +1,93 @@
+# homepage
+- id: we_are_klever
+  translation: "Wir sind Klever,"
+- id: by_name_and_trade
+  translation: "im Namen und auch im Business."
+- id: punchline
+  translation: |
+    Klever befähigt Marken und Agenturen weltweit, neue Kunden zu erreichen und zu aktivieren, 
+    indem wir maßgeschneiderte Suchmaschinenmarketing (SEM) Dienstleistungen anbieten.
+- id: bulletpoints
+  translation: "Klever Zusammengefasst"
+- id: repeatable_formula
+  translation: "Die 'Wissenschaftler' von Klever haben den Erfolg zu einer wiederholbaren Formel gemacht."
+- id: education
+  translation: "Lernen"
+- id: education_body
+  translation: "Nicht nur die Maschinen lernen hier bei Klever jeden Tag dazu. Das gesamte Team ist wissenshungrig."
+- id: ssl
+  translation: "SSL Sicherheit"
+- id: ssl_body
+  translation: |
+    Jeder Teil der Technologie die von Klever benutzt wird, angefangen bei unserer In-House Software
+    bis zum Messaging, ist über SSL verschlüsselt, wir nehmen die Sicherheit unserer Kunden sehr ernst.
+- id: optimization
+  translation: "Optimierung"
+- id: optimization_body
+  translation: |
+    Alles, was wir tun, wird A/B-getestet, rigoros und ständig.
+    Dies stellt sicher, dass Anzeigen immer Performant sind und nie Opfer von Banner-Blindheit oder saisonalen Änderungen werden.
+- id: research
+  translation: "Recherche"
+- id: research_body
+  translation: |
+    Klever recherchiert alles, noch bevor die Planungsphase beginnt.
+    Es ist von größter Bedeutung, jeden Winkel der Märkte und Produkte unserer Kunden zu kennen.
+- id: technology
+  translation: "Leistungsstarke Technologie"
+- id: technology_body
+  translation: |
+    Bei Klever haben wir schon früh auf "Programmatic" gesetzt. 
+    Unsere leistungsstarke, intern entwickelte Technologie nutzt Machine Learning und KI, um die beste Entscheidung für alle unsere Kunden zu treffen.
+- id: backups
+  translation: "Datenbank-Backups"
+- id: backups_body
+  translation: |
+    Wir verlieren Ihre Daten nicht, niemals. Alle wichtigen Daten zu Ihren Kampagnen
+    und Recherchen werden ständig gesichert und können bis auf die Minute eines Vorfalls wiederhergestellt werden.
+- id: amazing_businesses
+  translation: "Einige der Tollen Unternehmen, mit denen Klever gearbeitet hat:"
+- id: helpful_support
+  translation: "Hilfreiche Unterstützung"
+- id: our_job
+  translation: "Wir sind hier, um zu helfen, das ist unser Job."
+- id: support_body
+  translation: |
+    Wir arbeiten mit Ihnen zusammen, als ein Team. Wenn Sie Fragen haben, Bedenken haben oder Hilfe brauchen. 
+    Egal ob es sich um eine E-Mail, eine SMS oder ein Telefonat handelt, Ihnen wird geholfen.
+
+
+# header
+- id: existing_customer
+  translation: "Bestehender Kunde?"
+- id: log_in
+  translation: "Einloggen"
+
+# footer
+- id: footer_title_lang
+  translation: "Verfügbare Sprachen"
+- id: footer_title_company
+  translation: "Firma"
+- id: footer_title_legal
+  translation: "Juristisches"
+- id: catch_phrase_footer
+  translation: "Unterstützt Unternehmen jeder Größe seit 2004."
+
+
+# Contact Form
+- id: first_name
+  translation: "Vorname"
+- id: last_name
+  translation: "Nachname"
+- id: company
+  translation: "Firma"
+- id: email
+  translation: "E-Mail Adresse"
+- id: message
+  translation: "Nachricht"
+- id: accept_privacy
+  translation: "Hiermit stimme ich der Datenverarbeitung zu, wie erklärt in der"
+- id: privacy_policy
+  translation: "Datenschutzerklärung"
+- id: submit_contact
+  translation: "Unterhaltung Starten"
