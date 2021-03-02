@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://klever.global/de/approach/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/approach/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/approach/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/contact/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/legal-disclosure/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/legal-disclosure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/legal-disclosure/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/about/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/terms/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/terms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/terms/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://klever.global/de/privacy/</loc>
+    <lastmod>2021-03-02T19:37:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://klever.global/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://klever.global/de/privacy/"
+                />
+  </url>
+  
+</urlset>
