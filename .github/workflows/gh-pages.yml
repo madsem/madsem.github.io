@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: npm run prod
+        run: npm ci && npm run prod
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
