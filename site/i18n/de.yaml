@@ -55,12 +55,6 @@
   translation: |
     Wir arbeiten mit Ihnen zusammen, als ein Team. Wenn Sie Fragen haben, Bedenken haben oder Hilfe brauchen, werden wir da sein.
 
-# header
-- id: existing_customer
-  translation: "Bestehender Kunde?"
-- id: log_in
-  translation: "Einloggen"
-
 # footer
 - id: footer_title_lang
   translation: "Verfügbare Sprachen"

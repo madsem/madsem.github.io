@@ -56,13 +56,6 @@
     We work with you, as a team. Klever will always be there to answer any
     of your questions, concerns or work on new ideas.
 
-
-# header
-- id: existing_customer
-  translation: "Existing Customer?"
-- id: log_in
-  translation: "Login"
-
   # footer
 - id: footer_title_lang
   translation: "Available Languages"

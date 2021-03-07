@@ -28,15 +28,6 @@
           {{ end }}
         </div>
       </div>
-      <div class="hidden md:flex md:items-center md:space-x-6">
-        <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-yellow-100 text-yellow-800">
-          {{ T "existing_customer" }}
-        </span>
-        <a href="{{ .Site.Params.login_url }}" rel="nofollow"
-          class="text-base font-medium text-white hover:text-gray-300">
-          {{ T "log_in" }}
-        </a>
-      </div>
     </nav>
 
     <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen"
