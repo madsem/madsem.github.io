@@ -6,7 +6,7 @@
 - id: punchline
   translation: |
     Klever befähigt Marken und Agenturen weltweit, neue Kunden zu erreichen und zu aktivieren, 
-    indem wir maßgeschneiderte Suchmaschinenmarketing (SEM) Dienstleistungen anbieten.
+    indem wir maßgeschneiderte Suchmaschinenmarketing (SEM) Dienstleistungen auf Provisionsbasis anbieten.
 - id: bulletpoints
   translation: "Klever Zusammengefasst"
 - id: repeatable_formula
@@ -50,12 +50,10 @@
 - id: helpful_support
   translation: "Hilfreiche Unterstützung"
 - id: our_job
-  translation: "Wir sind hier, um zu helfen, das ist unser Job."
+  translation: "Wir sind hier, um zu helfen, dass ist unser Job."
 - id: support_body
   translation: |
-    Wir arbeiten mit Ihnen zusammen, als ein Team. Wenn Sie Fragen haben, Bedenken haben oder Hilfe brauchen. 
-    Egal ob es sich um eine E-Mail, eine SMS oder ein Telefonat handelt, Ihnen wird geholfen.
-
+    Wir arbeiten mit Ihnen zusammen, als ein Team. Wenn Sie Fragen haben, Bedenken haben oder Hilfe brauchen, werden wir da sein.
 
 # header
 - id: existing_customer
@@ -83,6 +81,8 @@
   translation: "Firma"
 - id: email
   translation: "E-Mail Adresse"
+- id: phone_number
+  translation: "Telefon Nummer"
 - id: message
   translation: "Nachricht"
 - id: accept_privacy

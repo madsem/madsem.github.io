@@ -5,8 +5,8 @@
   translation: "by name, and by trade."
 - id: punchline
   translation: |
-    Klever empowers brands and agencies world-wide, to connect with and activate 
-    targeted customers by providing tailor-made Search Engine Marketing (SEM) services.
+    Klever empowers brands and agencies worldwide, to connect with and activate 
+    targeted customers by providing tailor-made Search Engine Marketing (SEM) services on commission basis.
 - id: bulletpoints
   translation: "Klever In Bulletpoints"
 - id: repeatable_formula
@@ -53,8 +53,8 @@
   translation: "We’re here to help, that's our job."
 - id: support_body
   translation: |
-    We work with you, as a team. If you have questions, concerns, or need help. 
-    We will answer your call, even if that call is an E-Mail, a Text-Message, or an actual Phone Call.
+    We work with you, as a team. Klever will always be there to answer any
+    of your questions, concerns or work on new ideas.
 
 
 # header
@@ -84,6 +84,8 @@
   translation: "Company"
 - id: email
   translation: "E-Mail Address"
+- id: phone_number
+  translation: "Phone Number"
 - id: message
   translation: "Message"
 - id: accept_privacy

@@ -37,13 +37,15 @@
 
       {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-      {{ $script := .Site.Data.webpack.main }}
-      {{ with $script.js }}
-      <script src="{{ absURL . }}"></script>
-      {{ end }}
-
     </div>
   </div>
+
+  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+  <script src="{{ absURL . }}"></script>
+  {{ end }}
+
+  {{ block "scripts" . }}{{end}}
 
 </body>
 

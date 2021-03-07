@@ -1,55 +1,71 @@
-const form = document.getElementById('contact');
+import "whatwg-fetch";
 
-form.addEventListener("submit", validate, false);
+window.contactForm = () => {
 
-function validate(e) {
+    return {
+        endPoint: '',
+        notification: '',
+        failure: false,
+        loading: false,
+        submitted: false,
+        formData: {
+            first_name: '',
+            last_name: '',
+            company: '',
+            email: '',
+            phone: '',
+            message: '',
+            domain: window.location.hostname
+        },
 
-    e.preventDefault();
-    const first_name = document.getElementById('first_name');
-    const last_name = document.getElementById('last_name');
-    const message = document.getElementById('message');
-    const email = document.getElementById('email');
-    const accepted = document.getElementById('accept');
+        validateForm() {
+            if (this.formIsValid()) this.submitForm()
+        },
 
-    if (first_name.value === "") {
-        alert("Please enter your Name.");
-        first_name.focus();
-        return false;
+        formIsValid() {
+            const accepted = document.getElementById('accept')
+
+            if (accepted.getAttribute('aria-checked') !== "true") {
+                alert("To submit the form, you must read & agree to our Privacy Policy.");
+                accepted.focus();
+                return false;
+            }
+
+            return true;
+        },
+
+        submitForm() {
+            this.loading = true;
+
+            window.fetch(this.endPoint, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(this.formData)
+            })
+                .then(this.handleErrors)
+                .then(response => {
+                    console.log("ok")
+
+                    this.notification = 'Your message was forwarded, we will get back to you as soon as possible.'
+                })
+                .catch(error => {
+                    console.log(error)
+
+                    this.failure = true
+                    this.notification = error.message
+                })
+                .finally(() => {
+                    this.loading = false;
+                    this.submitted = true
+                })
+        },
+
+        handleErrors(response) {
+            if (response.status !== 200) {
+                throw Error('Something went awfully wrong, please wait a moment and try again.');
+            }
+
+            return response;
+        }
     }
-
-    if (last_name.value === "") {
-        alert("Please enter your Last Name.");
-        last_name.focus();
-        return false;
-    }
-
-    if (email.value === "") {
-        alert("Please enter your email address.");
-        email.focus();
-        return false;
-    }
-
-    if (!emailIsValid(email.value)) {
-        alert("Please enter a valid email address.");
-        email.focus();
-        return false;
-    }
-
-    if (message.value === "") {
-        alert("Please enter your message for us.");
-        message.focus();
-        return false;
-    }
-
-    if (accepted.getAttribute('aria-checked') !== "true") {
-        alert("Please accept our privacy policy.");
-        accepted.focus();
-        return false;
-    }
-
-    form.submit(); // Can submit the form data to the server
-}
-
-const emailIsValid = email => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }

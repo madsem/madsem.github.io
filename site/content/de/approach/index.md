@@ -21,11 +21,6 @@ Durch unsere gemeinsame Teamerfahrung von über einem Jahrhundert wissen wir, wi
 Klever arbeitet hart für Sie, wir stellen sicher, dass Sie den bestmöglichen "Knall" für Ihre Werbe-Euros bekommen.
 {{< img src="stats.png" alt="Beispielstatistik monatlich" class="rounded shadow-2xl" >}}
 
-
 ## Das Global in Klever
 Klever versteht die Feinheiten globaler Werbekampagnen und kann durch jahrelange Erfahrung navigieren, egal wie rau die internationalen Gewässer auch werden mögen.
 {{< img src="global.jpg" alt="Beispiel Statistik monatlich" class="rounded shadow-2xl" >}}
-
-
-## Wollen Sie mehr erfahren?
-{{< contact-form >}}

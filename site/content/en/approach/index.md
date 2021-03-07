@@ -25,7 +25,3 @@ Klever works hard for you, we ensure you get the best possible "bang" for your a
 ## The Global in Klever
 Klever understands the intricacies of global advertising campaigns, and through years of experience can navigate now matter how rough the international waters might get.
 {{< img src="global.jpg" alt="Example Statistics Monthly" class="rounded shadow-2xl" >}}
-
-
-## Want To Learn More?
-{{< contact-form >}}

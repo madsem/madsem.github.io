@@ -21,7 +21,7 @@ params:
   login_url: https://hub.klever.global/login
 
   # The action url for the contact us form.
-  contact_form_url: /
+  contact_form_url: https://2uk835ggu4.execute-api.eu-central-1.amazonaws.com/prod/contact
 
 # Default language menus
 menus:

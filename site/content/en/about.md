@@ -16,5 +16,5 @@ Marc is the CEO behind Klever and assembled a select team of Industry Veterans w
 The A-Team as we like to humorously call us internally, consists of programmers as well as marketing professionals.
 Klever has no office space, and works entirely remote. We would like to say that we've invented  distributed workspaces & async communication, but this honor goes to [Matt Mullenweg and Wordpress](https://ma.tt/2020/04/five-levels-of-autonomy/), which also operates entirely remote.
 
-## Why The Name "Klever"?
-**/ˈklevə(r)/** is phonetics for the english word "clever", but coincidentally the German equivalent is written almost exactly like that, "Klever". So we thought this was, well, kinda clever... :)
+## Why The Name "Klever"?{#why-the-name-klever}
+**/ˈklevə(r)/** is the phonetical transcription of the english word "clever", which is pronounced exactly the same in the German language.
