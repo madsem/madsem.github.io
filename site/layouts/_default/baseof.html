@@ -15,6 +15,8 @@
   <title>{{if .Page.Params.title}}{{.Page.Params.title}}{{else}}{{.Site.Title}}{{end}}</title>
   <meta name="description" content="{{ .Page.Params.description | default .Summary }}">
 
+  <meta name="google-site-verification" content="joSL-5vEGTGQ6rw7aeRWXOQasrNu-_BdQKJhGPVi6LE" />
+
   <base href="{{ .Site.BaseURL }}">
 
   {{ $stylesheet := .Site.Data.webpack.main }}
